@@ -4,37 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e308139-1417-417b-abcd-0ced7d3e80cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultithredingProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/runnable/RunnableInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/runnable/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/DeadLockEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/Paper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/threadCommunication/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/threadCommunication/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/threadCommunication/SharedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/deadlock/threadCommunication/ThreadCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/lock/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/lock/FairnessLockEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/lock/LocksExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/lock/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/lock/ReadWriteLockEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronize/lock/ReenTrentLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/World.java" afterDir="false" />
+    <list default="true" id="5e308139-1417-417b-abcd-0ced7d3e80cd" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/src/ThreadPool/CollableFutureEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadPool/ExecutorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadPool/ManuallyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadPool/RunnableFutureEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamda/LamdaExpresssion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamda/RunnableWithLamda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamda/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,16 +49,17 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadCommunication">
-    <configuration name="DeadLockEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronize.deadlock.DeadLockEx" />
+  <component name="RunManager" selected="Application.CollableFutureEx">
+    <configuration name="CollableFutureEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.CollableFutureEx" />
       <module name="MultithredingProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synchronize.deadlock.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FairnessLockEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronize.lock.FairnessLockEx" />
+    <configuration name="ExecutorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.ExecutorEx" />
       <module name="MultithredingProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synchronize.lock.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLockEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronize.lock.ReadWriteLockEx" />
+    <configuration name="LamdaExpresssion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lamda.LamdaExpresssion" />
       <module name="MultithredingProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synchronize.lock.*" />
+          <option name="PATTERN" value="lamda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReenTrentLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronize.lock.ReenTrentLockExample" />
+    <configuration name="ManuallyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.ManuallyThread" />
       <module name="MultithredingProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synchronize.lock.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollableFutureEx" />
+        <item itemvalue="Application.ExecutorEx" />
+        <item itemvalue="Application.ManuallyThread" />
+        <item itemvalue="Application.LamdaExpresssion" />
         <item itemvalue="Application.ThreadCommunication" />
-        <item itemvalue="Application.DeadLockEx" />
-        <item itemvalue="Application.ReadWriteLockEx" />
-        <item itemvalue="Application.FairnessLockEx" />
-        <item itemvalue="Application.ReenTrentLockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +137,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757349219018</updated>
-      <workItem from="1757349220567" duration="23878000" />
+      <workItem from="1757349220567" duration="35161000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1757493966277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757493966277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +162,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
